@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Latitud"
+    android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/txt_latitud"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="Latitud"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Latitud"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/txt_longitud"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="Longitud"/>
+
+    <Button
+        android:id="@+id/btn_envia_datos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Obtener datos"/>
+
+    <TextView
+        android:id="@+id/view_result"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
