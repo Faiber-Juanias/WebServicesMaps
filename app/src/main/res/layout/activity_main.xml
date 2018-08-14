@@ -34,7 +34,7 @@
         android:hint="Longitud"/>
 
     <Button
-        android:id="@+id/btn_envia_datos"
+        android:id="@+id/btn_envia"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Obtener datos"/>
@@ -42,6 +42,8 @@
     <TextView
         android:id="@+id/view_result"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimaryDark"
+        android:text="Ejemplo"/>
 
 </LinearLayout>
